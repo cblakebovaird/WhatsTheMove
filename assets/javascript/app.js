@@ -16,6 +16,7 @@ function displayEvents(){
 
     // Clears the events table each time a new search occurs
     $(".events").text("");
+    $(".breweries").text("");
 
     // Ajax call to grab the event info
     $.ajax({
